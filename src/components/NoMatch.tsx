@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 import { useLocation } from "react-router-dom";
 
-const NoMatch = () => {
+const NoMatch: FC = () => {
   const location = useLocation();
   return (
     <div>
