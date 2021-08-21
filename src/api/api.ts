@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from "axios";
 import { UserModel } from "./types";
 
 const axiosInstance = axios.create({
-  baseURL: "http://jsonplaceholder.typicode.com/",
+  baseURL: "https://jsonplaceholder.typicode.com/",
   timeout: 15000,
 });
 
